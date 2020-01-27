@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "528324669694",
+    "firebase_url": "https://canteena-e3075.firebaseio.com",
+    "project_id": "canteena-e3075",
+    "storage_bucket": "canteena-e3075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528324669694:android:e543b2498161ecc131b5af",
+        "android_client_info": {
+          "package_name": "com.example.canteena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528324669694-eb4m8qlkn0i46c0h0ts0p7tk4qads394.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChVu7UgGFmsWDVtkdqEctfTPGhAbd85Gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528324669694-eb4m8qlkn0i46c0h0ts0p7tk4qads394.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
