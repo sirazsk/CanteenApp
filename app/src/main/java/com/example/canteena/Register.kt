@@ -20,10 +20,10 @@ class Register : AppCompatActivity() {
         val password = findViewById<EditText>(R.id.userPassword)
         val emailId = findViewById<EditText>(R.id.userMail)
         val register = findViewById<Button>(R.id.userRegister)
-        val login = findViewById<TextView>(R.id.userLogin)
+        val userlogin = findViewById<TextView>(R.id.userLogin)
         var auth : FirebaseAuth
-        login.setOnClickListener{
-            startActivity(Intent(this,login::class.java))
+        userlogin.setOnClickListener{
+            startActivity(Intent(this,Login::class.java))
         }
         register.setOnClickListener{
             if(validate(name.text.toString(),password.text.toString(),emailId.text.toString()))
@@ -35,7 +35,7 @@ class Register : AppCompatActivity() {
                     if(task.isSuccessful) {
                         Toast.makeText(this, "Registration Successful", Toast.LENGTH_LONG).show()
                         finish()
-                        startActivity(Intent(this, login::class.java))
+                        startActivity(Intent(this, Login::class.java))
                     }
                     else
                         Toast.makeText(this,"Registration Failed",Toast.LENGTH_LONG).show()
