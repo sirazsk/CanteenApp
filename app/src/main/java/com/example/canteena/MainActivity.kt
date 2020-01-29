@@ -14,16 +14,11 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.cusLogin)
         val button1 = findViewById<Button>(R.id.empLogin)
         button.setOnClickListener{
-            onBtnClick()
+            startActivity(Intent(this,Login::class.java))
         }
         button1.setOnClickListener{
-            onBtnClick()
+            startActivity(Intent(this,EmpLogin::class.java))
         }
 
-    }
-    private fun onBtnClick()
-    {
-        val intent = Intent(this,Login::class.java)
-        startActivity(intent)
     }
 }

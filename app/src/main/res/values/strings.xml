@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">CanteenA</string>
+    <string name="selected_item">ADDED</string>
+
+    <string-array name="order_arrays">
+        <item></item>
+        <item>ALU PARATHA -- Rs15</item>
+        <item>ALU PATTIES -- Rs10</item>
+        <item>COFFEE      -- RS15</item>
+        <item>MASALA CHAI -- RS10</item>
+        <item>MASALA PATTIES-RS20</item>
+        <item>PANEER PARATHA-RS20</item>
+        <item>SAMOSA      -- RS06</item>
+        <item>LASSI       -- RS20</item>
+    </string-array>
 </resources>
