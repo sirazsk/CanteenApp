@@ -29,7 +29,7 @@ class EmpLogin : AppCompatActivity() {
                 .addOnCompleteListener { Task ->
                     if (Task.isSuccessful) {
                         Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
-                        startActivity(Intent(this, Customer::class.java))
+                        startActivity(Intent(this, Employee::class.java))
                     } else {
                         Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show()
                     }
@@ -37,7 +37,8 @@ class EmpLogin : AppCompatActivity() {
         }
         auth = FirebaseAuth.getInstance()
         if (auth.currentUser != null) {
-            startActivity(Intent(this,Customer::class.java))
+            startActivity(Intent(this,Employee::class.java))
         }
     }
+
 }

@@ -38,10 +38,7 @@ class Login : AppCompatActivity() {
                         Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show()
                     }
                 }
-            val database = FirebaseDatabase.getInstance()
-            val myRef = database.getReference(auth.uid.toString())
-            val data = arrayListOf<String>(name.text.toString())
-            myRef.setValue(data)
+
         }
 
         if (auth.currentUser != null) {

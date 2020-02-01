@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EmpLogin"></activity>
+        <activity android:name=".Employee"></activity>
+        <activity android:name=".QRcode" />
+        <activity android:name=".EmpLogin" />
         <activity android:name=".Register" />
         <activity android:name=".Customer" />
         <activity android:name=".Login" />
